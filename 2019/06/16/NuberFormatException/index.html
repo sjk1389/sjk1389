@@ -5,15 +5,22 @@
   
 
   
-  <title>개발세상</title>
+  <title>NuberFormatException | 개발세상</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:type" content="website">
-<meta property="og:title" content="개발세상">
-<meta property="og:url" content="https://sjk1389.github.io/index.html">
+  <meta name="description" content="java에서 개발을 하다보면 여러 이셉션 들을 경험한다. 이번엔 내가 최근에 개발하다가 경험했었던 NumberFormatException에 대해 포스팅을 하려고한다. NumberFormatException은 쉽게 풀어서 설명하면 숫자형식 오류인데, 숫자가 아닌 값을 숫자형으로 바꿀때 대부분 이런 오류가 발생한다. 예를 들어 String str = “O10”">
+<meta property="og:type" content="article">
+<meta property="og:title" content="NuberFormatException">
+<meta property="og:url" content="https://sjk1389.github.io/2019/06/16/NuberFormatException/index.html">
 <meta property="og:site_name" content="개발세상">
+<meta property="og:description" content="java에서 개발을 하다보면 여러 이셉션 들을 경험한다. 이번엔 내가 최근에 개발하다가 경험했었던 NumberFormatException에 대해 포스팅을 하려고한다. NumberFormatException은 쉽게 풀어서 설명하면 숫자형식 오류인데, 숫자가 아닌 값을 숫자형으로 바꿀때 대부분 이런 오류가 발생한다. 예를 들어 String str = “O10”">
 <meta property="og:locale" content="default">
+<meta property="og:image" content="https://user-images.githubusercontent.com/50314667/59563046-bee59f80-906f-11e9-9e00-8ddbd56a4189.png">
+<meta property="og:image" content="https://user-images.githubusercontent.com/50314667/59563183-6dd6ab00-9071-11e9-98af-4819b2138eb9.png">
+<meta property="og:updated_time" content="2019-06-16T11:08:52.159Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="개발세상">
+<meta name="twitter:title" content="NuberFormatException">
+<meta name="twitter:description" content="java에서 개발을 하다보면 여러 이셉션 들을 경험한다. 이번엔 내가 최근에 개발하다가 경험했었던 NumberFormatException에 대해 포스팅을 하려고한다. NumberFormatException은 쉽게 풀어서 설명하면 숫자형식 오류인데, 숫자가 아닌 값을 숫자형으로 바꿀때 대부분 이런 오류가 발생한다. 예를 들어 String str = “O10”">
+<meta name="twitter:image" content="https://user-images.githubusercontent.com/50314667/59563046-bee59f80-906f-11e9-9e00-8ddbd56a4189.png">
   
     <link rel="alternate" href="/atom.xml" title="개발세상" type="application/atom+xml">
   
@@ -60,9 +67,7 @@
   </div>
 </header>
       <div class="outer">
-        <section id="main">
-  
-    <article id="post-NuberFormatException" class="article article-type-post" itemscope itemprop="blogPost">
+        <section id="main"><article id="post-NuberFormatException" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
     <a href="/2019/06/16/NuberFormatException/" class="article-date">
   <time datetime="2019-06-16T11:08:37.000Z" itemprop="datePublished">2019-06-16</time>
@@ -75,8 +80,8 @@
       <header class="article-header">
         
   
-    <h1 itemprop="name">
-      <a class="article-title" href="/2019/06/16/NuberFormatException/">NuberFormatException</a>
+    <h1 class="article-title" itemprop="name">
+      NuberFormatException
     </h1>
   
 
@@ -107,101 +112,26 @@
     </footer>
   </div>
   
-</article>
-
-
+    
+<nav id="article-nav">
   
-    <article id="post-test" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2019/05/06/test/" class="article-date">
-  <time datetime="2019-05-06T08:05:19.000Z" itemprop="datePublished">2019-05-06</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
   
-    <h1 itemprop="name">
-      <a class="article-title" href="/2019/05/06/test/">extjs 프레임워크</a>
-    </h1>
+    <a href="/2019/05/06/test/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">extjs 프레임워크</div>
+    </a>
   
+</nav>
 
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p> 우리나라에서는 잘 안쓰이는 프레임워크 지만 본인은 회사에서 개발할때 extjs를 쓰기에 몇글자 적어본다.<br> 처음 접했을때는 신기하기도 하고 참 이상하기도 했지만 편리한점과 불편한점도 있고 지금은 조금 익숙해져서 그냥 그렇다.<br>내가 느끼는 장점<br> 첫번째로 자바스크립트와 제이쿼리와 유사한 장점이 있다. 기존 jsp 파일에서 자바스크립트문이나 제이쿼리문과 같이 쓰면 호환이 된다. 특히 ajax같은 경우 extjs에서 제공하는 문이 있는데<br> 제이쿼리의 ajax와 유사하다 ex) 제이쿼리는 .ajax로 만들어 사용, extjs는 Ext.Ajax.request 로 사용</p>
-<p> 두번째는 그리드나 콤보박스, 텍스트필드 같은 것을 만들때 조금은 심플? 하다고 느낀다. 다른 프레임워크는 잘모르겠지만 html로 만들기보단 extjs에서 제공하는 코드로<br> 만들면 조금은 쉽다는 느낌을 받는다. 아마 이것보다도 좋은것들이 있을거라 생각한다.</p>
-<p>내가 느끼는 단점<br> 첫번째 매우 무겁다. extjs 자체가 무거운 프레임워크라 메모리를 많이잡아먹을때도 있고 조회해오는데 느릴때가 있다. </p>
-<p> 두번째 국내에서 잘안알려진점. 국내에서 잘안쓰다보니 정보찾기가 조금은 힘들다. 물론 외국에선 좀 사용하는듯 싶은데 센차쪽 api나 다른 외국인들이 올린 게시물들을 보면 어느정도 찾을 수 있다.</p>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="https://sjk1389.github.io/2019/05/06/test/" data-id="cjwyukd520001qguhfgp97gim" class="article-share-link">Share</a>
-      
-        <a href="https://sjk1389.github.io/2019/05/06/test/#disqus_thread" class="article-comment-link">Comments</a>
-      
-      
-    </footer>
-  </div>
   
 </article>
 
 
-  
-    <article id="post-hello-world" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2019/05/06/hello-world/" class="article-date">
-  <time datetime="2019-05-06T08:03:46.143Z" itemprop="datePublished">2019-05-06</time>
-</a>
-    
+<section id="comments">
+  <div id="disqus_thread">
+    <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
   </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2019/05/06/hello-world/">Hello World</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="https://sjk1389.github.io/2019/05/06/hello-world/" data-id="cjwyukd5k0002qguho2wlu0qb" class="article-share-link">Share</a>
-      
-        <a href="https://sjk1389.github.io/2019/05/06/hello-world/#disqus_thread" class="article-comment-link">Comments</a>
-      
-      
-    </footer>
-  </div>
-  
-</article>
-
-
-  
-
-
+</section>
 </section>
         
           <aside id="sidebar">
@@ -271,11 +201,13 @@
 <script>
   var disqus_shortname = 'https-sjk1389-github-io-1';
   
+  var disqus_url = 'https://sjk1389.github.io/2019/06/16/NuberFormatException/';
+  
   (function(){
     var dsq = document.createElement('script');
     dsq.type = 'text/javascript';
     dsq.async = true;
-    dsq.src = '//' + disqus_shortname + '.disqus.com/count.js';
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
     (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
   })();
 </script>
